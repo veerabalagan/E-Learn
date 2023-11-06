@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <img src="logo.jpg" width="15%">
+    <nav>
+        <ul>
+        </ul>
+    </nav>
+</header>
+    <style>
+        body{ 
+            background-image: url('image.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    <div class="wrap">
+        <form class="login-form" action="/register" method="post">
+            <div class="form-header">
+                <h3><b>LOGIN PAGE</b></h3>
+                <p>Login to access your dashboard</p>
+            </div>
+            <!--Email Input-->
+            <div class="form-group">
+                <input type="text" class="form-input" placeholder="email@example.com" name="email">
+            </div>
+            <!--Password Input-->
+            <div class="form-group">
+                <input type="password" class="form-input" placeholder="password" name="password">
+            </div>
+            <!--Login Button-->
+            <div class="form-group">
+                <button class="form-button" type="submit" name="login"><b>Login</b></button>
+            </div>
+            <div class="form-footer">
+            Don't have an account? <a href="register.html">Sign Up</a>
+            </div>
+        </form>
+    </div><!--/.wrap-->
+</body>
+</html>

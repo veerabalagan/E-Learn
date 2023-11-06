@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js">
+
+        $(document).ready.function()
+         {
+            $(".form-button").click()
+            {
+                window.open("/index.html");
+            } 
+        }
+    </script>
+</head>
+<body>
+    <header>
+    <img src="logo.jpg" width="15%">
+    <nav>
+        <ul>
+        </ul>
+    </nav>
+</header>
+    <style>
+        body{ 
+            background-image: url('image.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        </style>
+    <div class="wrap">
+        <form class="login-form" action="/add" method="post">
+            <div class="form-header">
+                <h3><b>REGISTER PAGE</b></h3>
+            </div>
+            <!--Email Input-->
+            <div class="form-group">
+                <input type="text" class="form-input" name="email" placeholder="email@example.com" name="email">
+            </div>
+            <!--Password Input-->
+            <div class="form-group">
+                <input type="password" class="form-input" name="pass" placeholder="password" name="password">
+            </div>
+            <!--Login Button-->
+            <div class="form-group">
+                <button class="form-button" type="submit"><b>Register</b></button>
+            </div>
+            <div class="form-footer">
+            Already having an account? <a href="tmp.html">LOGIN</a>
+            </div>
+        </form>
+    </div><!--/.wrap-->
+</body>
+</html>
